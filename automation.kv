@@ -1,0 +1,12 @@
+<Layout>:
+    padding: 2, 2, 2, 2
+    orientation: 'vertical'
+    TextInput:
+        id: input
+        size_hint: 1, .9
+        focus: True
+    Button:
+        size_hint: 1, .1
+        text: 'Run'
+        on_release:
+            root.run()
