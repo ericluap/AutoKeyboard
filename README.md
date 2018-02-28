@@ -1,4 +1,5 @@
 # AutoKeyboard
+(Created by Eric)<br></br>
 Automate keypresses quickly (Video Below)
 
 AutoKeyboard allows you to quickly program automated keypresses.
