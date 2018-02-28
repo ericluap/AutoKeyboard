@@ -25,7 +25,7 @@ class Token:
     def __repr__(self):
         return self.__str__()
 
-RESERVERD_KERYWORDS = {
+RESERVERD_KEYWORDS = {
     ':k': Token('KEY', ':k'),
     ':c': Token('COMMAND', ':c'),
     ':t': Token('TIME', ':t'),
@@ -90,7 +90,7 @@ class Lexer:
     def statement(self):
         self.advance()
 
-        token = RESERVERD_KERYWORDS[':'+self.current_char]
+        token = RESERVERD_KEYWORDS[':'+self.current_char]
         self.advance()
 
         return token
